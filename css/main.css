@@ -1,13 +1,42 @@
+@font-face {
+    font-family: 'aemstelregular';
+    src: url('../fonts/aemstel-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aemstel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #ededed;
+}
+
+/* a:hover, a:active
+{
+	color: #4272B8;
+}
+*/
+
 .hidden
 {
 	display: none;
+}
+
+.topRectangle
+{
+	height: 5px;
+	background-color: #4272B8;
 }
 
 #container
 {
 	width: 1000px;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color: #0F0E15;
+	margin-top: 50px;
 }
 
 .mainHeader
@@ -15,4 +44,108 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+}
+
+.mainNav
+{
+	text-align: center;
+	font-family: Arial;
+	margin-left: auto;
+	width: 1000px;
+	height: 75px;
+}
+
+.mainNav li
+{
+	display: inline-block;
+	margin-right: 45px;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+
+.mainNav li a
+{
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.rectangle2
+{
+	height: 5px;
+	width: 1000px;
+	background-color: #4272B8;
+}
+
+.intro
+{
+	margin-top: 25px;
+}
+
+.intro h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+	margin-bottom: 25px;
+}
+
+.intro img
+{
+	margin-bottom: 25px;
+}
+
+.intro p
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.picture1
+{
+	float: left;
+	margin-bottom: 10px;
+}
+
+.picture2
+{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.picture3
+{
+	float: left;
+}
+
+.picture4
+{
+	float: right;
+}
+
+.learning
+{
+	margin-top: 640px;
+}
+
+.learning h2
+{
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	font-size: 56px;
+	font-family: aemstelregular;
+}
+
+.learning p
+{
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
 }
