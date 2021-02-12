@@ -7,25 +7,20 @@
 
 }
 
-body {
+body 
+{
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #FFFFFF;
   background-color: #ededed;
 }
 
-/* a:hover, a:active
-{
-	color: #4272B8;
-}
-*/
-
 .hidden
 {
 	display: none;
 }
 
-.topRectangle
+.topRectangle, .underRectangle
 {
 	height: 5px;
 	background-color: #4272B8;
@@ -37,6 +32,7 @@ body {
 	margin: 0 auto;
 	background-color: #0F0E15;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .mainHeader
@@ -77,7 +73,7 @@ body {
 	background-color: #4272B8;
 }
 
-.intro
+.intro, .aboutUs
 {
 	margin-top: 25px;
 }
@@ -148,4 +144,121 @@ body {
 	margin-left: 50px;
 	margin-right: 50px;
 	text-align: center;
+}
+
+.titleLearn a
+{
+	position: relative;
+  	display: inline-block;
+  	overflow: hidden;
+  	background: linear-gradient(to right, #4272B8, #4272B8 50%, white 50%);
+  	background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-background-clip: text;
+  	font-size: 56px;
+ 	background-size: 200% 100%;
+  	background-position: 100%;
+  	transition: background-position 100ms ease;
+}
+
+a:hover 
+{
+  background-position: 0 100%;
+}
+
+.bottomRectangle
+{
+	margin-top: 100px;
+	height: 5px;
+	background-color: #4272B8;
+}
+
+/* About Us */
+
+.aboutUs
+{
+	margin-top: 25px;
+}
+
+.aboutUs h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+	margin-bottom: 25px;
+}
+
+.aboutUs p
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.middleImages
+{
+	display: flex;
+	padding-top: 25px;
+}
+
+.middleImages img
+{
+	float: left;
+	margin-left: 25px;
+}
+
+.middleImages h3
+{
+	text-align: center;
+	margin-top: 50px;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.gallery3
+{
+	margin-top: 50px;
+	padding-bottom: 600px;
+}
+
+.png1
+{
+	float: left;
+	margin-left: 50px;
+}
+
+.png2
+{
+	float: right;
+	margin-right: 50px;
+}
+
+/* Contact Form */
+
+.contactContent
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.contactContent h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+	margin-bottom: 25px;
+}
+
+.contactContent h3
+{
+	margin-right: auto;
+	margin-left: 25px;
+	font-family: aemstelregular;
+	font-size: 24px;
 }

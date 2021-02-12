@@ -1,1 +1,54 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+		<title class="hidden">Midterm FIP</title>
+			<link href="css/reset.css" rel="stylesheet" type="text/css">
+			<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+	<div class="topRectangle"></div>
+	<div id="container">
+			<header class="mainHeader">
+				<nav class="mainNav">
+				<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutUs.html">About Us</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="opportunities.html">Opportunities</a></li>
+						<li><a href="buyOnline.html">Buy Online</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="rectangle2"></div>
+				<section class="contactContent">
+					<h2>Contact</h2>
+					<h3>Get in Touch</h3>
+				</section>
+				<section class="contactForm">
+					<form id="contactForm" action="form.php" method="post">
+                    <label for="name">First Name</label>
+                    <input type="text" required id="name" name="firstname" size="30" placeholder="Enter your First Name">
+
+                    <label for="name">Last Name</label>
+                    <input type="text" required id="name" name="lastname" size="30" placeholder="Enter your Last Name">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    <label for="phone">Phone</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="60" rows="10"></textarea>
+                   
+                    <input id="submit" type="submit" value="Submit">
+            	</form>
+			</section>	
+			<div class="bottomRectangle"></div>
+		</div>
+		<div class="underRectangle"></div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
