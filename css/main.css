@@ -128,7 +128,7 @@ body
 	margin-top: 640px;
 }
 
-.learning h2
+.learning h2, .contactUs h2
 {
 	margin-top: 25px;
 	margin-left: 25px;
@@ -146,7 +146,7 @@ body
 	text-align: center;
 }
 
-.titleLearn a
+.titleLearn a, .contactUs a
 {
 	position: relative;
   	display: inline-block;
@@ -283,7 +283,7 @@ input
 	height: 10px;
 	padding: 10px;
 	border: 0px;
-	color: #AFAFAF;
+	color: #000000;
 	border-radius: 5px;
 } 
 
@@ -299,7 +299,7 @@ textarea
 	height: 50px;
 	padding: 10px;
 	border: 0px;
-	color: #AFAFAF;
+	color: #000000;
 	border-radius: 5px;
 }
 
@@ -320,4 +320,179 @@ textarea
 #submit:hover
 {
 	box-shadow: inset 100px 0 0 0;
+}
+
+/* Opportunities page */
+
+.opportunities
+{
+	margin-top: 25px;
+}
+
+.opportunities h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+}
+
+.opportunities img
+{
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.opportunities p
+{
+	text-align: center;
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.jobs
+{
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+
+.jobs img
+{
+	margin-left: 25px;
+	float: left;
+}
+
+.jobs h3
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+}
+
+.jobs p
+{
+	text-align: center;
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 350px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.jobs2 
+{
+	margin-top: 25px;
+}
+
+.jobs2 p
+{
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 700px;
+	font-family: arial;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.jobs2 img
+{
+	margin-left: 25px;
+	float: right;
+}
+
+.contactUs h2
+{
+	margin-top: 75px;
+}
+
+.contactUs p
+{
+	text-align: center;
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 24px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+
+.buyOnline 
+{
+	margin-top: 25px;
+}
+
+.buyOnline h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+}
+
+.buyOnline p
+{
+	text-align: center;
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 24px;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+}
+
+.products
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.products h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+}
+
+.product1
+{
+	margin-bottom: 235px;
+}
+
+.section
+{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+.section img
+{
+	float: left;
+}
+
+.section h3
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 20px; 
+}
+
+.section p
+{
+	margin-top: 25px;
+	margin-left: 325px;
+}
+
+.product2
+{
+	margin-bottom: 235px;
+}
+
+.product3
+{
+	padding-bottom: 200px;
 }
