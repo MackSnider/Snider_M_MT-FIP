@@ -257,8 +257,67 @@ a:hover
 
 .contactContent h3
 {
-	margin-right: auto;
-	margin-left: 25px;
+	text-align: center;
 	font-family: aemstelregular;
 	font-size: 24px;
+	margin-top: 75px;
+}
+
+label
+{
+	display: block;
+	font-size: 16px;
+	font-family: arial;
+	text-align: center;
+}
+
+input
+{
+	font-family: aemstelregular;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 10px;
+	padding: 10px;
+	border: 0px;
+	color: #AFAFAF;
+	border-radius: 5px;
+} 
+
+textarea
+{
+	font-family: aemstelregular;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 500px;
+	height: 50px;
+	padding: 10px;
+	border: 0px;
+	color: #AFAFAF;
+	border-radius: 5px;
+}
+
+#submit
+{
+	margin-top: 25px;
+	color: #ffffff;
+	font-family: aemstelregular;
+	height: 33px;
+	width: 100px;
+	background-color: #4272B8;
+	cursor: pointer;
+	border: none;
+	transition: ease-out 0.2s;
+	font-size: 15px;
+}
+
+#submit:hover
+{
+	box-shadow: inset 100px 0 0 0;
 }
