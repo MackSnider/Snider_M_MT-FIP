@@ -146,6 +146,13 @@ body
 	text-align: center;
 }
 
+.titleLearn, .contactUs a:hover
+{
+	transform: scale(0.96);
+	transition: ease-out 0.4s;
+	cursor: pointer;
+}
+
 .titleLearn a, .contactUs a
 {
 	position: relative;
@@ -303,6 +310,12 @@ textarea
 	border-radius: 5px;
 }
 
+#submit:hover
+{
+	transform: scale(0.9);
+	box-shadow: inset 100px 0 0 0;
+}
+
 #submit
 {
 	margin-top: 25px;
@@ -315,11 +328,6 @@ textarea
 	border: none;
 	transition: ease-out 0.2s;
 	font-size: 15px;
-}
-
-#submit:hover
-{
-	box-shadow: inset 100px 0 0 0;
 }
 
 /* Opportunities page */
@@ -460,7 +468,8 @@ textarea
 
 .product1
 {
-	margin-bottom: 235px;
+	display: flex;
+	margin-bottom: 100px;
 }
 
 .section
@@ -472,6 +481,14 @@ textarea
 .section img
 {
 	float: left;
+}
+
+.section img:hover
+{
+	transform: scale(0.97);
+	transition: ease-out 0.2s;
+	opacity: 0.7;
+	cursor: pointer;
 }
 
 .section h3
@@ -489,10 +506,12 @@ textarea
 
 .product2
 {
-	margin-bottom: 235px;
+	display: flex;
+	margin-bottom: 100px;
 }
 
 .product3
 {
+	display: flex;
 	padding-bottom: 200px;
 }
