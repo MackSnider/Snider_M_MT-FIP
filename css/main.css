@@ -1,0 +1,517 @@
+@font-face {
+    font-family: 'aemstelregular';
+    src: url('../fonts/aemstel-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aemstel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body 
+{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #ededed;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.topRectangle, .underRectangle
+{
+	height: 5px;
+	background-color: #4272B8;
+}
+
+#container
+{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #0F0E15;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.mainNav
+{
+	text-align: center;
+	font-family: Arial;
+	margin-left: auto;
+	width: 1000px;
+	height: 75px;
+}
+
+.mainNav li
+{
+	display: inline-block;
+	margin-right: 45px;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+
+.mainNav li a
+{
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.rectangle2
+{
+	height: 5px;
+	width: 1000px;
+	background-color: #4272B8;
+}
+
+.intro, .aboutUs
+{
+	margin-top: 25px;
+}
+
+.intro h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+	margin-bottom: 25px;
+}
+
+.intro img
+{
+	margin-bottom: 25px;
+}
+
+.intro p
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.picture1
+{
+	float: left;
+	margin-bottom: 10px;
+}
+
+.picture2
+{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.picture3
+{
+	float: left;
+}
+
+.picture4
+{
+	float: right;
+}
+
+.learning
+{
+	margin-top: 640px;
+}
+
+.learning h2, .contactUs h2
+{
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	font-size: 56px;
+	font-family: aemstelregular;
+}
+
+.learning p
+{
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.titleLearn, .contactUs a:hover
+{
+	transform: scale(0.96);
+	transition: ease-out 0.4s;
+	cursor: pointer;
+}
+
+.titleLearn a, .contactUs a
+{
+	position: relative;
+  	display: inline-block;
+  	overflow: hidden;
+  	background: linear-gradient(to right, #4272B8, #4272B8 50%, white 50%);
+  	background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-background-clip: text;
+  	font-size: 56px;
+ 	background-size: 200% 100%;
+  	background-position: 100%;
+  	transition: background-position 100ms ease;
+}
+
+a:hover 
+{
+  background-position: 0 100%;
+}
+
+.bottomRectangle
+{
+	margin-top: 100px;
+	height: 5px;
+	background-color: #4272B8;
+}
+
+/* About Us */
+
+.aboutUs
+{
+	margin-top: 25px;
+}
+
+.aboutUs h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+	margin-bottom: 25px;
+}
+
+.aboutUs p
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.middleImages
+{
+	display: flex;
+	padding-top: 25px;
+}
+
+.middleImages img
+{
+	float: left;
+	margin-left: 25px;
+}
+
+.middleImages h3
+{
+	text-align: center;
+	margin-top: 50px;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.gallery3
+{
+	margin-top: 50px;
+	padding-bottom: 600px;
+}
+
+.png1
+{
+	float: left;
+	margin-left: 50px;
+}
+
+.png2
+{
+	float: right;
+	margin-right: 50px;
+}
+
+/* Contact Form */
+
+.contactContent
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.contactContent h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+	margin-bottom: 25px;
+}
+
+.contactContent h3
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 24px;
+	margin-top: 75px;
+}
+
+label
+{
+	display: block;
+	font-size: 16px;
+	font-family: arial;
+	text-align: center;
+}
+
+input
+{
+	font-family: aemstelregular;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 10px;
+	padding: 10px;
+	border: 0px;
+	color: #000000;
+	border-radius: 5px;
+} 
+
+textarea
+{
+	font-family: aemstelregular;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 500px;
+	height: 50px;
+	padding: 10px;
+	border: 0px;
+	color: #000000;
+	border-radius: 5px;
+}
+
+#submit:hover
+{
+	transform: scale(0.9);
+	box-shadow: inset 100px 0 0 0;
+}
+
+#submit
+{
+	margin-top: 25px;
+	color: #ffffff;
+	font-family: aemstelregular;
+	height: 33px;
+	width: 100px;
+	background-color: #4272B8;
+	cursor: pointer;
+	border: none;
+	transition: ease-out 0.2s;
+	font-size: 15px;
+}
+
+/* Opportunities page */
+
+.opportunities
+{
+	margin-top: 25px;
+}
+
+.opportunities h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+}
+
+.opportunities img
+{
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.opportunities p
+{
+	text-align: center;
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.jobs
+{
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+
+.jobs img
+{
+	margin-left: 25px;
+	float: left;
+}
+
+.jobs h3
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+}
+
+.jobs p
+{
+	text-align: center;
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 24px;
+	margin-left: 350px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.jobs2 
+{
+	margin-top: 25px;
+}
+
+.jobs2 p
+{
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 700px;
+	font-family: arial;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.jobs2 img
+{
+	margin-left: 25px;
+	float: right;
+}
+
+.contactUs h2
+{
+	margin-top: 75px;
+}
+
+.contactUs p
+{
+	text-align: center;
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 24px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+
+.buyOnline 
+{
+	margin-top: 25px;
+}
+
+.buyOnline h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+}
+
+.buyOnline p
+{
+	text-align: center;
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 24px;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+}
+
+.products
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.products h2
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 56px; 
+}
+
+.product1
+{
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.section
+{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+.section img
+{
+	float: left;
+}
+
+.section img:hover
+{
+	transform: scale(0.97);
+	transition: ease-out 0.2s;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.section h3
+{
+	text-align: center;
+	font-family: aemstelregular;
+	font-size: 20px; 
+}
+
+.section p
+{
+	margin-top: 25px;
+	margin-left: 325px;
+}
+
+.product2
+{
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.product3
+{
+	display: flex;
+	padding-bottom: 200px;
+}
